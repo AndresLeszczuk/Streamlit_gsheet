@@ -17,6 +17,8 @@ import pandas as pd
 # Create a connection object.
 conn = connect()
 
+st.header("Andres A Leszczuk")
+
 # Perform SQL query on the Google Sheet.
 # Uses st.cache to only rerun when the query changes or after 10 min.
 @st.cache(ttl=6000)
